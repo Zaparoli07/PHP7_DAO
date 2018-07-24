@@ -29,6 +29,27 @@
 	echo $usuario;
 	*/
 
+	/*====INSERT USUÁRIO====
+	$aluno = new Users();
+
+	$aluno -> setDeslogin("aluno");
+	$aluno -> setDessenha("123");
+
+	$aluno -> insert();
+
+	echo $aluno;
+	*/
+
+	/*====UPDATE USUÁRIO====
+	$usuario = new Users();
+
+	$usuario -> loadbyId(2);
+
+	$usuario ->update("Professor", "123");
+
+	echo $usuario;
+	*/	
+
 
 	/*
 	$sql = new Sql();
