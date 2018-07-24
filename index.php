@@ -48,7 +48,18 @@
 	$usuario ->update("Professor", "123");
 
 	echo $usuario;
-	*/	
+	*/
+
+
+	/*====DELETE USUÁRIO====
+	$usuario = new Users();
+
+	$usuario -> loadbyId(2);
+
+	$usuario -> delete();
+
+	echo $usuario;
+	/*	
 
 
 	/*
